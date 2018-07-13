@@ -9,6 +9,7 @@
 #include <arpa/inet.h>
 #else
 #include <winsock2.h>
+#include <unistd.h>
 #endif
 
 #include <stdbool.h>
